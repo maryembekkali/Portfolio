@@ -4,45 +4,46 @@
 }
 
 body {
-    font-family: verdana, sans-serif;
+    font-family: italiana, verdana, sans-serif;
     color: black;
-    background: #F5F1E8;
+    background: #E6C5B5;
 }
 
 .vakken{
 	background: #FDFCF9;
-	/*width: 80%;*/
-    margin: 0px auto 40px auto;
+  padding: 0 auto 0 auto;
+  padding-bottom: 1em;
 }
 
 .ruimte{
 	display: block;
 	margin: 0px auto;
 	max-width: 80%;
+	margin-bottom: 4em;
 }
 
- /*tekst*/
-/* h1, h2, h3{
- 	text-align: center;
- 	padding: 20px 20px 10px 20px;
- }*/
+.pijltje{
+	width: 3em;
+	padding-bottom: 2em;
+}
 
 h1, h2{
-	font-size: 1.5em;
+	font-size: 2em;
  	text-align: center;
  	padding-top: 2em;
  	padding-bottom: .2em;
  	font-weight: normal;
  }
+
 h3{
-	font-size: 1em;
+	font-size: .9em;
  	text-align: center;
  	padding-bottom: .2em;
  	font-weight: bold;
  }
 
  p, figcaption{
-	text-align: center;
+	text-align: left;
 	padding-bottom: 25px;
 	display: block;
 	margin: 0px auto;
@@ -52,46 +53,41 @@ h3{
  img{
  	max-width: 95%;
  	display: block;
- 	margin: 0px auto 0px auto;
+ 	margin: 0px auto 0 auto;
+ }
+
+ main{
+ 	padding-bottom: 4em;
  }
 
  .pasfoto {
  	display: block;
-  	margin-left: auto;
-  	margin-right: 50px;
-  	width: 30%;
+	margin-left: auto;
+	margin-right: 50px;
+	width: 30%;
  }
 
  .foto{
  	display: block;
-  	margin-left: auto;
-  	margin-right: 50px;
-  	width: 30%;
-  	margin: 80px 50px 80px auto;
+	width: 30%;
+	margin: 80px 50px 80px auto;
  }
 
 .achtergrond{
 	background: #FDFCF9;
 	width: 80%;
-    margin: 0px auto 40px auto;
 	display: block;
-	margin: 0px auto;
-	max-width: 80%;
-
-}
-
-.tekst{
-	float: left;
-	width: 50%;
-    margin-left: 180px;
-    text-align: left;
+	margin: 0px auto;	
 }
 
 /*logo*/
 .logo{
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+ 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	width: 50vw;
 }
 
 .column {
@@ -102,9 +98,9 @@ h3{
 .kolom{
 	float: left;
 	width: 50%;
-	padding-top: 70px;
-    margin-left: 180px;
-    text-align: left;
+	padding-top: 12em;
+  margin-left: 180px;
+  text-align: left;
 }
 
 .row::after {
@@ -117,28 +113,9 @@ h3{
 	color: blue;
 }
 
-/*nav*/
-li{
-	font-size: 2.5em;
-	text-transform: uppercase;
-	display: inline;
-	margin: 20px;					/*Zodat ze verder uit elkaar staan*/
-}
-
-nav{
-	display: flex;
-	justify-content: space-around;
-	margin-bottom: 5px;					/*Zodat nav boven en onder ruimte heeft*/
-}
-
 a{
  	color: black;
  	text-decoration: none;
- }
-
- .current a{
- 	color: #C9BCB1;
- 	font-weight: bold;
  }
 
  .beeld{
@@ -146,34 +123,19 @@ a{
  	padding-bottom: 3em;
  }
 
- .logo{
- 	width: 2em;
- 	padding-bottom: .5em;
- }
-
-
-/*form*/
-form{
-	font-size: 2em;
-	text-align: center;
-	width: 70%;
-	margin: 20px auto;
-	padding: 20px;
-}
-
 input, button, textarea {
 	font-size: 1em;
 	width: 90%;
-    background-color: #f6eff0;
-    margin: 15px 0px;
-    border-radius: 15px;
-    padding: 10px 10px;  
+  background-color: #f6eff0;
+  margin: 15px 0px;
+  border-radius: 15px;
+  padding: 10px 10px;  
 }
 
 button{
-    background-color: #b77b87;
-    display: block;
-    margin: 60px auto;
+  background-color: #b77b87;
+  display: block;
+  margin: 60px auto;
 }
 
 textarea{
@@ -187,9 +149,17 @@ label{
 
 
  /*footer*/
+ .llogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 2em;
+ 	padding-bottom: .5em;
+ }
+
  footer{
  	text-align: center;
- 	background-color: #C9BCB1;
+ 	background-color: #C6A494;
  	width: 100%;
  	padding: 20px 0px 0px 0px;
  }

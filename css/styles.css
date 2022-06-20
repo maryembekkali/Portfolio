@@ -43,11 +43,11 @@ h3{
  }
 
  p, figcaption{
-	text-align: left;
+	text-align: center;
 	padding-bottom: 25px;
 	display: block;
 	margin: 0px auto;
-	max-width: 80%;
+	max-width: 60%;
  }
 
  img{
@@ -118,10 +118,14 @@ a{
  	text-decoration: none;
  }
 
- .beeld{
+.beeld{
  	width: 75%;
  	padding-bottom: 3em;
  }
+
+iframe{
+	margin-left: 8em;
+}
 
 input, button, textarea {
 	font-size: 1em;

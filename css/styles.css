@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: arial, veranda, sans-serif;
+    font-family: verdana, sans-serif;
     color: black;
     background: #F5F1E8;
 }
@@ -22,9 +22,23 @@ body {
 }
 
  /*tekst*/
- h1, h2, h3{
+/* h1, h2, h3{
  	text-align: center;
  	padding: 20px 20px 10px 20px;
+ }*/
+
+h1, h2{
+	font-size: 1.5em;
+ 	text-align: center;
+ 	padding-top: 2em;
+ 	padding-bottom: .2em;
+ 	font-weight: normal;
+ }
+h3{
+	font-size: 1em;
+ 	text-align: center;
+ 	padding-bottom: .2em;
+ 	font-weight: bold;
  }
 
  p, figcaption{
@@ -127,6 +141,16 @@ a{
  	font-weight: bold;
  }
 
+ .beeld{
+ 	width: 75%;
+ 	padding-bottom: 3em;
+ }
+
+ .logo{
+ 	width: 2em;
+ 	padding-bottom: .5em;
+ }
+
 
 /*form*/
 form{
@@ -181,4 +205,5 @@ footer img{
 
 .container{
 	padding: 0px 30px 10px 30px;
+	padding-bottom: 1em;
 }
